@@ -1,8 +1,10 @@
 import React from 'react';
 import { Loader } from 'rsuite';
+import s from './Loader.module.css';
+
 const LoaderComponent = () => {
   return (
-    <div>
+    <div className={s.loader}>
       <Loader
         type="Circles"
         color="#00BFFF"
